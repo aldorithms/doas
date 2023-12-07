@@ -1,0 +1,259 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "doas.o",
+      "doas.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/doas.c",
+    "output": "/home/aldorithms/doas/doas.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "env.o",
+      "env.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/env.c",
+    "output": "/home/aldorithms/doas/env.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/execvpe.o",
+      "compat/execvpe.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/execvpe.c",
+    "output": "/home/aldorithms/doas/compat/execvpe.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/reallocarray.o",
+      "compat/reallocarray.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/reallocarray.c",
+    "output": "/home/aldorithms/doas/compat/reallocarray.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-c",
+      "y.tab.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/y.tab.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/closefrom.o",
+      "compat/closefrom.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/closefrom.c",
+    "output": "/home/aldorithms/doas/compat/closefrom.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/errc.o",
+      "compat/errc.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/errc.c",
+    "output": "/home/aldorithms/doas/compat/errc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/getprogname.o",
+      "compat/getprogname.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/getprogname.c",
+    "output": "/home/aldorithms/doas/compat/getprogname.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/setprogname.o",
+      "compat/setprogname.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/setprogname.c",
+    "output": "/home/aldorithms/doas/compat/setprogname.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/strlcat.o",
+      "compat/strlcat.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/strlcat.c",
+    "output": "/home/aldorithms/doas/compat/strlcat.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/strlcpy.o",
+      "compat/strlcpy.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/strlcpy.c",
+    "output": "/home/aldorithms/doas/compat/strlcpy.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/strtonum.o",
+      "compat/strtonum.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/strtonum.c",
+    "output": "/home/aldorithms/doas/compat/strtonum.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-O2",
+      "-DUSE_PAM",
+      "-DDOAS_CONF=\"/usr/local/etc/doas.conf\"",
+      "-D_GNU_SOURCE",
+      "-include",
+      "compat/compat.h",
+      "-Icompat",
+      "-c",
+      "-o",
+      "compat/verrc.o",
+      "compat/verrc.c"
+    ],
+    "directory": "/home/aldorithms/doas",
+    "file": "/home/aldorithms/doas/compat/verrc.c",
+    "output": "/home/aldorithms/doas/compat/verrc.o"
+  }
+]
